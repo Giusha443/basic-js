@@ -27,7 +27,7 @@ function getSeason(date) {
   } catch (e) {
     throw new Error("Invalid date!");
   }
-  const month = date.getMonth(); // Returns 0-11 (January = 0, December = 11)
+  const month = date.getMonth();
 
   if (month >= 2 && month <= 4) {
     return "spring";
